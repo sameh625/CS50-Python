@@ -33,6 +33,53 @@ The project was created for **CS50P**, and demonstrates the use of GUI programmi
 
 ---
 
+## 🛠️ How It Works
+
+- The GUI is built with Tkinter and separated into a `gui.py` module.
+- MySQL handles all database operations in `db.py`.
+- `project.py` serves as the app’s entry point.
+
+**The `tasks` table should have the following structure:**
+
+```sql
+CREATE TABLE tasks (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    status ENUM('pending', 'done') DEFAULT 'pending'
+);
+```
+
+---
+
+## 🧑‍💻 Folder Structure
+
+```
+.
+├── project.py          # Entry point
+├── gui.py              # GUI class using Tkinter
+├── db.py               # MySQL functions
+├── test_project.py     # Unit tests
+└── README.md           # Project description
+```
+
+---
+
+## 🚀 How to Run
+
+Make sure you have:
+
+- Python 3 installed
+- MySQL server running locally
+- Tkinter installed (usually included)
+- `mysql-connector-python` installed (`pip install mysql-connector-python`)
+
+Then run:
+
+```bash
+python project.py
+```
+
+---
 ## 🧪 Testing:
 
 Testing is done using **pytest**. Unit tests are written for database operations:
