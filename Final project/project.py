@@ -4,7 +4,7 @@ from gui import Todo
 
 def main():
     root = tk.Tk()
-    app = Todo(root)
+    Todo(root)
     root.mainloop()
 
 

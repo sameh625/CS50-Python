@@ -1,6 +1,6 @@
 # To-Do List Manager with Tkinter and MySQL
 
-#### Video Demo: [<YOUR VIDEO URL HERE>]
+#### Video Demo: [https://youtu.be/hUL7sFgmNqQ]
 #### Author: Sameh
 #### GitHub Username: sameh625
 #### edX Username: SM_2502_O1D7
